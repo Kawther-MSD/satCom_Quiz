@@ -358,9 +358,147 @@ questions = [
         "category": "Troubleshooting - Iridium",
         "explanation": "Some Iridium services are linked to both SIM and device IMEI. Swapping requires reprovisioning or carrier sync."
     },
-
-
-
+        
+    {
+        "question": "A SIM is moved from one Iridium GO! device to another and fails to connect. What may be required?",
+        "options": ["Full reset", "Satellite pass check", "APN reconfiguration", "Reprovisioning the new IMEI"],
+        "answer": "Reprovisioning the new IMEI",
+        "category": "Troubleshooting - Iridium",
+        "explanation": "Some Iridium services are linked to both SIM and device IMEI. Swapping requires reprovisioning or carrier sync."
+    },
+    {
+        "question": "Which Iridium device offers SOS button functionality with GPS tracking and programmable emergency contacts?",
+        "options": ["Iridium 9555", "Iridium Edge", "Iridium Extreme 9575", "LT-3100S"],
+        "answer": "Iridium Extreme 9575",
+        "category": "Land Voice - Iridium",
+        "explanation": "Iridium Extreme 9575 includes an integrated SOS button for emergency response with location tracking."
+    },
+    {
+        "question": "On Thuraya XT-PRO DUAL, how can a user enable satellite signal priority over GSM?",
+        "options": ["Use SIM 1 slot only", "Change roaming settings", "Manual network selection in settings", "Disable GSM antenna"],
+        "answer": "Manual network selection in settings",
+        "category": "Land Voice - Thuraya",
+        "explanation": "XT-PRO DUAL allows manual selection of either satellite or GSM network priority in its settings menu."
+    },
+    {
+        "question": "Which of the following is a valid reason for a Thuraya SatSleeve not registering to the satellite network?",
+        "options": ["Inactive SIM", "Cloudy weather", "Low smartphone battery", "Roaming enabled"],
+        "answer": "Inactive SIM",
+        "category": "Troubleshooting - Thuraya",
+        "explanation": "Thuraya devices require an active SIM with satellite service; inactive or expired SIMs will not register."
+    },
+    {
+        "question": "Which Starlink terminal is optimized for enterprise multi-WAN usage and outdoor environments?",
+        "options": ["Standard Kit", "High Performance Kit", "Flat High Performance", "Starlink Mini"],
+        "answer": "Flat High Performance",
+        "category": "Enterprise - Starlink",
+        "explanation": "The Flat High Performance Starlink terminal supports IP67 ruggedization and dual-WAN for enterprise use."
+    },
+    {
+        "question": "Which band does Starlink operate on for satellite communication?",
+        "options": ["L-Band", "Ka-Band", "Ku-Band", "C-Band"],
+        "answer": "Ka-Band",
+        "category": "Satellite Band Knowledge - Starlink",
+        "explanation": "Starlink primarily uses the Ka-Band for high-throughput satellite broadband."
+    },
+    {
+        "question": "What is the function of the RS-232 interface on Iridium IoT devices like Edge or Edge Solar?",
+        "options": ["Power input", "Bluetooth pairing", "Serial data communication", "Firmware update"],
+        "answer": "Serial data communication",
+        "category": "IoT - Iridium",
+        "explanation": "RS-232 and TTL ports allow for standard serial communication with external hardware."
+    },
+    {
+        "question": "Which Iridium terminal provides GMDSS compliance for maritime safety services?",
+        "options": ["LT-3100S", "Iridium GO!", "Thales VesseLINK", "Explorer 323"],
+        "answer": "LT-3100S",
+        "category": "Maritime - Iridium",
+        "explanation": "The LT-3100S is IMO-certified for GMDSS distress calling and safety features at sea."
+    },
+    {
+        "question": "What happens if a Starlink terminal is activated in a country different from its region setting?",
+        "options": ["Firmware auto-updates", "Reduced bandwidth", "Connection blocked until reassignment", "Switches to roaming mode"],
+        "answer": "Connection blocked until reassignment",
+        "category": "Troubleshooting - Starlink",
+        "explanation": "Starlink terminals are region-locked; operation outside assigned zones may require re-provisioning."
+    },
+    {
+        "question": "How can you confirm that a Thuraya device has registered with the satellite network?",
+        "options": ["Check for 'G' symbol", "Check IMEI in settings", "Check balance via SMS", "Look for full signal bars with 'T' or 'THU'"],
+        "answer": "Look for full signal bars with 'T' or 'THU'",
+        "category": "Troubleshooting - Thuraya",
+        "explanation": "A Thuraya device shows ‘T’ or ‘THU’ next to signal bars when properly registered to satellite service."
+    },
+    {
+        "question": "What causes an Iridium 9555 to show 'No Service' even in clear skies?",
+        "options": ["Low battery", "Corrupted SIM", "Damaged antenna", "Obsolete firmware"],
+        "answer": "Damaged antenna",
+        "category": "Troubleshooting - Iridium",
+        "explanation": "Physical antenna damage or misconnection prevents signal acquisition despite line of sight."
+    },
+    {
+        "question": "Which band is typically used by Thuraya for its satellite communication services?",
+        "options": ["C-Band", "L-Band", "Ku-Band", "S-Band"],
+        "answer": "L-Band",
+        "category": "Satellite Band Knowledge - Thuraya",
+        "explanation": "Thuraya satellites operate on L-Band, which offers reliable communication with minimal rain fade."
+    },
+    {
+        "question": "You receive a Starlink terminal that connects but has extremely slow speeds. What's the first step?",
+        "options": ["Contact billing", "Replace router", "Check for obstructions in app", "Swap power supply"],
+        "answer": "Check for obstructions in app",
+        "category": "Troubleshooting - Starlink",
+        "explanation": "Starlink's app includes an obstruction tool to diagnose degraded throughput due to blockages."
+    },
+    {
+        "question": "What is the first step to troubleshoot a Thuraya XT-PRO DUAL stuck in GSM mode?",
+        "options": ["Reboot device", "Manually switch to satellite network", "Change SIM slot", "Update firmware"],
+        "answer": "Manually switch to satellite network",
+        "category": "Troubleshooting - Thuraya",
+        "explanation": "Sometimes manual intervention is needed to prioritize satellite mode over GSM."
+    },
+    {
+        "question": "Which Iridium IoT solution is designed for solar-powered asset monitoring with no external power?",
+        "options": ["Iridium Edge", "Edge Solar", "9602N Module", "Thuraya M2M Terminal"],
+        "answer": "Edge Solar",
+        "category": "IoT - Iridium",
+        "explanation": "Edge Solar includes solar-charged battery and is ideal for long-term remote monitoring."
+    },
+    {
+        "question": "What is a common symptom of a misaligned Starlink dish during setup?",
+        "options": ["Overheating", "Red LED flashing", "No IP assigned", "Motor not moving"],
+        "answer": "Motor not moving",
+        "category": "Troubleshooting - Starlink",
+        "explanation": "A Starlink dish should auto-align; failure to move suggests mechanical fault or obstruction."
+    },
+    {
+        "question": "Which band provides the best resistance to rain fade and weather disruptions?",
+        "options": ["Ka-Band", "Ku-Band", "L-Band", "S-Band"],
+        "answer": "L-Band",
+        "category": "Satellite Band Knowledge - General",
+        "explanation": "L-Band signals are low frequency and penetrate atmospheric conditions more effectively."
+    },
+    {
+        "question": "How can you detect if a Thuraya SIM has been suspended?",
+        "options": ["No signal bars", "Error code 8", "Status message: 'SIM inactive'", "Cannot send SMS"],
+        "answer": "Status message: 'SIM inactive'",
+        "category": "Troubleshooting - Thuraya",
+        "explanation": "Suspended SIMs show status messages and fail to register or send messages."
+    },
+    {
+        "question": "What network status is expected on a Certus 200 terminal after cold boot in open sky?",
+        "options": ["Initializing", "Searching...", "Ready", "Updating"],
+        "answer": "Ready",
+        "category": "Land Data - Iridium",
+        "explanation": "After full initialization, a properly functioning Certus terminal shows 'Ready' to indicate satellite lock."
+    },
+    {
+        "question": "How does Starlink assign public IP addresses by default?",
+        "options": ["Dynamic IPv6", "Static NAT", "Carrier-grade NAT", "Custom static IPv4"],
+        "answer": "Carrier-grade NAT",
+        "category": "Troubleshooting - Starlink",
+        "explanation": "Starlink uses CG-NAT, meaning customers cannot receive incoming connections by default."
+    }
 
 ]
 
